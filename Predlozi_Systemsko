@@ -1,0 +1,7 @@
+Status cache-a, da li je write heavy ili read heavy
+
+Kod nas nema smisla da stalno menjamo status cache-a jer se kod nas podaci ne menjaju, za isti query dobijamo isti query.
+
+Mozda mozes da implementiras "Nepromenjen" status kod za cache, da izbegnemo ono da dok se nesto upisuje da se cita a da ne mora lock.
+
+Mozes i da ostavis da uopste ne lockujes, opet iz razloga sto za jedan query dobijas jedan isti rezultat. Ispada da na kraj ne mora nikakav lock.

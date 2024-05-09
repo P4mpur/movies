@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/pampur/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/pampur/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/pampur/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">/home/pampur/.nuget/packages/microsoft.visualstudio.threading.analyzers/16.10.56</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_VisualStudio_Composition_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Composition_Analyzers)' == '' ">/home/pampur/.nuget/packages/microsoft.visualstudio.composition.analyzers/16.9.20</PkgMicrosoft_VisualStudio_Composition_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/pampur/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>
